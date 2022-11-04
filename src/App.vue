@@ -10,8 +10,8 @@ const search = ref("")
 <template>
   <div class="container">
     <header>
-      <h1>Pages</h1>
-      <input type="text" placeholder="Search..." />
+      <h1>Science Page</h1>
+      <input v-model.trim="search" type="text" placeholder="Search..." />
     </header>
     <div v-for="page in pages" :key="page.id" class="options-container">
       <div class="card">
