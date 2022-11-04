@@ -1,15 +1,24 @@
+<script setup>
+import p from "./data/pages.json";
+import { ref } from "vue";
+
+const pages = ref(p)
+const search = ref("")
+</script>
+
+
 <template>
   <div class="container">
     <header>
       <h1>Pages</h1>
       <input type="text" placeholder="Search..." />
     </header>
-    <div class="options-container">
+    <div v-for="page in pages" :key="page.id" class="options-container">
       <div class="card">
-        <img src="https://brainconnection.brainhq.com/wp-content/uploads/2019/01/math-1200x600.png" alt="" />
+        <img :src="page.img" alt="" />
         <div class="cars-test">
-          <h2>Math</h2>
-          <p>12 questions</p>
+          <h2>{{page.name}}</h2>
+          <p>{{page.questions.length}}</p>
         </div>
       </div>
     </div>
@@ -36,6 +45,11 @@ header input {
   padding: 7px;
   border-radius: 5px;
 }
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:40px;
+}
 .card {
   width: 300px;
   overflow: hidden;
@@ -49,5 +63,11 @@ header input {
   width: 100%;
   height: 160px;
   margin: 0;
+}
+.card .card-text {
+  padding: 0 5px;
+}
+.card .card-text {
+  font-weight: bold;
 }
 </style>

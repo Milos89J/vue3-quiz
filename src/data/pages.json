@@ -1,0 +1,300 @@
+[
+
+    {
+        "id":1,
+        "img":"https://brainconnection.brainhq.com/wp-content/uploads/2019/01/math-1200x600.png",
+        "name": "Math",
+        "questions": [
+            {
+                "id": 1,
+                "text": "8 + 2(2 + 2)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "16",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "1",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "8",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "144",
+                        "inCorrect": false
+                    }
+                    
+                    
+                ]
+            },
+            {
+                "id": 2,
+                "text": "7 + 7 * 2",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "21",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "4",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "67",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "111",
+                        "inCorrect": false
+                    }
+                ]
+            },  
+            {
+                "id": 3,
+                "text": "6 - 2 - 1",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "3",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "15",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "79",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "43",
+                        "inCorrect": false
+                    }
+                ]
+            }  
+        ]
+    },
+    {
+        "id":2,
+        "img":"https://www.environmentalscience.org/wp-content/uploads/2018/08/physics-640x416.jpg",
+        "name": "Physics",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Einstein's Special Theory Of Relativity is?",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "E = mc^2",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "E = mc/2",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "E = mc*2",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "E = m^2",
+                        "inCorrect": false
+                    }
+                    
+                    
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Newton's first law",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Inertia",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Impuls",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Forces",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Nothing",
+                        "inCorrect": false
+                    }
+                ]
+            },  
+            {
+                "id": 3,
+                "text": "Speed of light is",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "300000 km s",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "30000 km",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "30 km s",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "-3000000000 km s",
+                        "inCorrect": false
+                    }
+                ]
+            }  
+        ]
+    },
+    {
+        "id":2,
+        "img":"https://www.goform.it/wp-content/uploads/2020/01/gis.jpg",
+        "name": "Geographic",
+        "questions": [
+            {
+                "id": 1,
+                "text": "Capital city(Brasil)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Brasilia",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Rio De Janeiro",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Rio Negro",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Delhi",
+                        "inCorrect": false
+                    }
+                    
+                    
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Capital city(Serbia)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "Beograd",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Novi Sad",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Valjevo",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Nis",
+                        "inCorrect": false
+                    }
+                ]
+            },  
+            {
+                "id": 3,
+                "text": "Capital city(India)",
+                "options": [
+                    {
+                        "id": 1,
+                        "label": "A",
+                        "text": "New Delhi",
+                        "inCorrect": true
+                    },
+                    {
+                        "id": 2,
+                        "label": "B",
+                        "text": "Bangalor",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 3,
+                        "label": "C",
+                        "text": "Madgaon",
+                        "inCorrect": false
+                    },
+                    {
+                        "id": 4,
+                        "label": "D",
+                        "text": "Calcata",
+                        "inCorrect": false
+                    }
+                ]
+            }  
+        ]
+    }
+]
