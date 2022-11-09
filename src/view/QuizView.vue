@@ -1,7 +1,7 @@
 <script setup>
 import p from "../data/pages.json";
 import { ref, watch } from "vue";
-import Card from '../components/Card.vue';
+import Card from "../components/Card.vue";
 
 const pages = ref(p);
 const search = ref("");
@@ -26,7 +26,6 @@ watch(search, () => {
   </div>
 </template>
 <style scoped>
-
 header {
   margin-bottom: 10px;
   margin-top: 30px;
